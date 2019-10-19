@@ -99,6 +99,7 @@ a:hover {
   position: absolute;
   left: 0;
   bottom: 0;
+  background: rgb(238, 235, 235);
 }
 .branding-thumbnail {
   color: rgb(45, 136, 255);
