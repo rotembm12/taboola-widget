@@ -71,7 +71,7 @@ a:hover {
 }
 .thumbnail {
   position: relative;
-  background: rgba(230, 230, 230, 0.885);
+  background: rgba(238, 235, 235, 0.885);
   padding: 1em;
   max-width: 100%;
   border-radius: 3%;
@@ -79,7 +79,7 @@ a:hover {
 .img-thumbnail {
   width: 100% !important;
   min-height: 50%;
-  max-height: 300px;
+  max-height: 200px;
 }
 
 .title-wrap {
