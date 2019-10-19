@@ -13,7 +13,6 @@ function init() {
       var response = JSON.parse(xhr.response);
       var data = response.list;
       data.forEach(function(item) {
-        console.log(item);
         var thumbnail = d.createElement("div");
         thumbnail.classList.add("thumbnail");
 
@@ -63,7 +62,6 @@ function init() {
             if (titlePara.scrollHeight > pWrap.clientHeight) {
               if (clampSpan.style.visibility !== "visible") {
                 clampSpan.style.visibility = "visible";
-                console.log("changed the visibility");
               }
             } else {
               if (clampSpan.style.visibility !== "hidden") {
@@ -90,7 +88,6 @@ function init() {
 //For IE browsers that dont support ResizeObserver
 function handleResizeIE() {
   var wrapers = document.getElementsByClassName("title-wrap");
-  console.log(wrapers);
   for (var i = 0; i < wrapers.length; i++) {
     var title = wrapers[i].getElementsByClassName("title-thumbnail");
     if (title[0].scrollHeight > wrapers[i].clientHeight) {
